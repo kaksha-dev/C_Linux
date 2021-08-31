@@ -11,6 +11,7 @@
 struct node* reverse (struct node *head);
 struct node* reverse_util (struct node *current);
 
+// recursive version of reverse.c
 struct node* reverse (struct node *head) {
     if (head == NULL) {
         return head;

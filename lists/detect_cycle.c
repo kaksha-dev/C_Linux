@@ -12,6 +12,7 @@ struct node *detect_cycle(struct node *head);
 
 // cycle detection
 struct node *detect_cycle (struct node *head) {
+    // empty
     if (head == NULL) {
         return NULL;   
     }
@@ -41,7 +42,6 @@ struct node *detect_cycle (struct node *head) {
             }
             return turtle;
         }
-        
     }
     return NULL;       
 }

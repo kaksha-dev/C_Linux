@@ -50,6 +50,7 @@ void display (struct node *head) {
     }
     printf("\n");
 }
+
 void main() {
 
     struct node *list1 = NULL;  // 1 1 3 6 7 10 
@@ -66,7 +67,7 @@ void main() {
     add(&list2,2);
     add(&list2,1);
 
-   display(merge_list(list1, list2));
+    display(merge_list(list1, list2));
 
     struct node *list3 = NULL;
     struct node *list4 = NULL;
