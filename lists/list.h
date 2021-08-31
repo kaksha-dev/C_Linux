@@ -2,8 +2,6 @@
  * list - class problems
  */
 
-#include <stdbool.h>
-
 #ifndef LIST
 #define LIST
 
